@@ -2,12 +2,16 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
+
+# MUST DELETE before commit #
+OW_key = ""
+K_key = ""
+
 # basic variables
 URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=1&acr=1&acq=오늘+서울+날씨&qdt=0&ie=utf8&query=오늘+서울+날씨"
 city_name = "seoul"
-OW_API_key = "" # MUST DELETE before commit #
 lang_code = "kr"
-open_wthr_URL = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={OW_API_key}&lang={lang_code}&units=metric"
+open_wthr_URL = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={OW_key}&lang={lang_code}&units=metric"
 
 
 # Naver "오늘 서울 날씨" 검색정보
