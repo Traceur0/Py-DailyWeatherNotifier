@@ -3,10 +3,6 @@ import requests
 import json
 
 
-# MUST DELETE before commit #
-OW_key = ""
-K_key = ""
-
 # basic variables
 URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=1&acr=1&acq=오늘+서울+날씨&qdt=0&ie=utf8&query=오늘+서울+날씨"
 city_name = "seoul"
